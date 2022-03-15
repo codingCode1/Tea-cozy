@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    opacity: 0.9;
+}
+body{
+    width: 100%;
+    min-height: 95vh;
+    background-color: black;
+    font-family: Helvetica;
+    font-size: 22px;
+    color: seashell;
+}
+.wrapper {
+    width: 70%;
+    margin: 69px auto;
+}
+.container-one{
+    position: fixed;
+    top: 0;
+    width: 68%;
+    background-color: black;
+    height: 69px;
+    border-bottom: 1px solid seashell;
+    margin-right: 20px;
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo-picture{
+    height: 50px;
+}
+ul li {
+    display: inline-flex;
+    text-decoration: underline;
+    margin-left: 15px;
+}
+a{
+    color:seashell;
+}
+.our-mission{
+    height: 700px;
+    width: 1200px;
+    background-image: url(assets/img-mission-background.jpg);
+    opacity: 0.9;
+    margin: 0 auto 50px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.h2-one{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.text{
+    background-color: black;
+    height: 100px;
+    width: 1200px;
+    text-align: center;
+}
+.tea-of-the-month {
+    width: 1000px;
+    height: 800px;
+    margin: 0 auto 50px auto;
+}
+.h2-two, 
+.h4-two {
+    text-align: center;
+    margin-bottom: 10px;
+}
+.pic-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.caption{
+    text-align: center;
+}
+img {
+    height: 200px;
+    width: 300px;
+    margin: 20px 30px 10px 30px;
+}
+.locations {
+    width: 1200px;
+    height: 575px;
+    background-image: url(assets/img-locations-background.webp);
+    margin: 75px auto 0 auto;
+}
+.h2-three{
+    text-align: center;
+    position: relative;
+    top: 55px;
+}
+.box-container {
+    width: 100%;
+    height: 75%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box{
+    width: 300px;
+    height: 300px;
+    background-color: black;
+    opacity: 1;
+    margin-left: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.tea-cozy{
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 0 auto;
+}
+.h2-four{
+    margin-top: -30px;
+}
+footer p{
+    text-align: left;
+    margin-left: 20px;
+    font-weight: bold;
+    height: 75px;
+}
